@@ -1,12 +1,13 @@
 package com.dublin.weather_kotlin
-//(MD. IMRUL MAHAMUD
-//STUDENT ID:18317)
+
 import android.content.ContentValues
 import android.content.Context
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 
+//(MD. IMRUL MAHAMUD
+//STUDENT ID:18317)
 class SQ_LITE(context: Context?) :
     SQLiteOpenHelper(context, Db_name, null, 1) {
     override fun onCreate(db: SQLiteDatabase) {

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/add_warning"
+    tools:context=".My_Warning_list">
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="200dp"
+        android:layout_height="69dp"
+        android:text="Add Warning"
+        android:backgroundTint="#FF3D00"
+        android:layout_gravity="end"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    </Button>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RV_WARN"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
